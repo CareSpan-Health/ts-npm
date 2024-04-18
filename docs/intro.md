@@ -34,8 +34,8 @@ We have singleton functions and adding to the packages can be tricky. To keep it
 
 This is for building lambdas. To build lambdas, we need a common set of middleware (to ensure the lambdas are built consistently), connector to the databases, and access to other services (e.g. AWS S3, Pusher)
 
-|                                           | Front End | Back End | Common |
-| ----------------------------------------- | --------- | -------- | -------- |
-| [General](./category/general-package)     | X         | X        |  |
-| [Singleton](./category/singleton-package) | /         | X        | This mostly for backend |
-| [API](./category/api-package-lambda)      |           | X        |  |
+|                                           | Front End | Back End | Comment | Package Name |
+| ----------------------------------------- | --------- | -------- | -------- | ------|
+| [General](./category/general-package)     | X         | X        |  | `@cscore/cs-package` |
+| [Singleton](./category/singleton-package) | /         | X        | This mostly for backend | `@cscore/cs-singleton` |
+| [API](./category/api-package-lambda)      |           | X        |  | `@cscore/cs-api` |
